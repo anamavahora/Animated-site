@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Scrolling site</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <h1>CAFE</h1>
+    <ul>
+      <!-- These should be <li> inside <ul> -->
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#contact">Contact</a></li> <!-- removed extra '#' -->
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <div class="front">
+      <h1>COFFEE</h1>
+      <img src="c3.png" id="coffee" />
+      <img src="b1.png" alt="" id="coffeebean1" />
+      <img src="b1.png" alt="" id="coffeebean2" />
+      <img src="b1.png" alt="" id="coffeebean3" />
+      <img src="b1.png" alt="" id="coffeebean4" />
+      <img src="b1.png" alt="" id="coffeebean5" />
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="card">
+      <!-- You can put an image or styling content here -->
+    </div>
+    <div class="para">
+      <h3>🌍 A Journey That Begins at the Root</h3> <!-- Fixed from h1 to h3 -->
+      <p>
+        Coffee is not just a beverage — it's a journey across the world, a bridge between cultures, and a daily ritual for millions. Its origins trace back centuries to the ancient coffee forests of Ethiopia, where legend tells the story of Kaldi, a curious goat herder who noticed his goats dancing energetically after eating bright red berries from a mysterious shrub. And just like that, the magic of coffee began to spread.
+      </p>
+      <p>
+        From the Ethiopian highlands, coffee traveled to Yemen, where the first coffee houses—qahveh khaneh—emerged. These spaces became centers of intellectual exchange, where poets, scholars, and artists gathered to share ideas over steaming cups of “qahwa.” Coffee then journeyed through the Middle East, Turkey, and Persia, eventually reaching Europe in the 17th century, where it was hailed as the "wine of the intellect."
+      </p>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu">
+    <div class="card card1">
+      <img src="c2.png" id="can1" />
+
+    </div>
+    <div class="card card2">
+      <!-- Add content or leave blank -->xx
+    </div>
+    <div class="card card3">
+      <img src="c1.png" id="can2" />
+      
+    </div>
+  </section>
+
+  <!-- Optional: Contact Section -->
+  <section id="contact">
+  <h1 class="background-text">Contact US</h1>
+  <div class="contact-card">
+    <input type="text" placeholder="Enter Your Name" />
+    <input type="email" placeholder="Enter Email" />
+    <textarea placeholder="Write Your feedback"></textarea>
+    <button>Login</button>
+  </div>
+</section>
+
+
+  <!-- GSAP Libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
